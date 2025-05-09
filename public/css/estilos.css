@@ -1,0 +1,35 @@
+/* Estilos personalizados para la portada */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/portada-videojuegos.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.hero-section h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .btn-primary {
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #e63939;
+    border-color: #e63939;
+}
+
+section {
+    background-color: #f8f9fa;
+}
+
+section h3 {
+    color: #2c3e50;
+}
+
+section p {
+    color: #6c757d;
+}
